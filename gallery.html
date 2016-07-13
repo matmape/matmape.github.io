@@ -1,0 +1,150 @@
+
+<!DOCTYPE html>
+<!--[if IE 9]> <html lang="en" class="js-no ie9"> <![endif]-->
+<!--[if IE 10]> <html lang="en" class="js-no ie10"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en" ng-app="app">
+
+<head ng-include="'app/templates/header.html'" ng-controller="galleryCtrl"></head>
+<body ng-controller="galleryCtrl">
+<!-- Navigation -->
+<nav class="navbar navbar-trn navbar-fixed-top" role="navigation" id="navbarSettings">
+    <div class="container" ng-include="'app/templates/navabar.html'"></div>
+</nav>
+
+<!-- If navbar is fixed to top and it has the class navbar-default or navbar-inverse this div will add space below the navbar-->
+<div id="navbarSpaceBottom"></div>
+<!-- Header Box -->
+<section class="bg-19 bg-center bg-cover">
+    <div class="bg-filter">
+        <div class="container section-lg">
+            <h1 class="top-title">Gallery</h1>
+        </div>
+    </div>
+</section>
+<section class="section">
+    <div class="container">
+        <ul id="slider-aboutUs" >
+            <li>
+                <a href="#slide3">
+                    <img src="assets/img/images/slide01.jpg" alt="">
+                </a>
+            </li> <li>
+                <a href="#slide3">
+                    <img src="assets/img/images/slide02.jpg" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="#slide3">
+                    <img src="assets/img/images/slide03.jpg" alt="">
+                </a>
+            </li> <li>
+                <a href="#slide3">
+                    <img src="assets/img/images/slide04.jpg" alt="">
+                </a>
+            </li>
+            </li> <li>
+                <a href="#slide3">
+                    <img src="assets/img/images/slide05.jpg" alt="">
+                </a>
+            </li>
+        </ul>
+        <div class="space"></div>
+
+    </div>
+</section>
+<section class="section-lg bg-grey ">
+    <div class="container">
+        <h2 class="big-title text-center">Our Works</h2>
+        <ul class="filter-tabs">
+            <li class="filter active" data-filter="mix"><span>All</span>
+            </li>
+            <li class="filter" data-filter="painting"><span>Painting</span>
+            </li>
+            <li class="filter" data-filter="category1"><span>Category 1</span>
+            </li>
+            <li class="filter" data-filter="category2"><span>Category 2</span>
+            </li>
+        </ul>
+        <ul class="row  filter-grid-v2" id="Grid">
+            <!-- Item 1 -->
+            <li class="col-md-4 col-sm-6 mix {{image.type}}" ng-repeat="image in gallery">
+                <a href="portfolio-item-v2.html" title="view art work">
+                    <div class="hover-content wow easeUp" data-wow-delay="0.5s">
+                        <img ng-src="assets/img/images/{{image.image}}" class="img-responsive" alt="{{image.title}}">
+                        <div class="top-part hidden-xs">
+                            <i class="fa fa-eye"></i>
+                        </div>
+                        <div class="bottom-part hidden-xs">
+                            <h3> {{image.title}}</h3>
+                        </div>
+                    </div>
+                </a>
+            </li>
+        </ul>
+
+    </div>
+</section>
+
+<!-- Scripts-->
+<!--Back to top-->
+<a href="#" class="back-to-top">
+    <i class="fa fa-angle-up"></i>
+</a>
+
+<!-- Footer-->
+<div ng-include="'app/templates/footer.html'"></div>
+
+<!-- Modernizr -->
+<script src="assets/js/min/modernizr.custom.min.js"></script>
+
+<!-- jQuery -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery-ui.min.js"></script>
+
+<!--<script src="http://cdnjs.cloudflare.com/ajax/libs/less.js/2.1.0/less.min.js"></script>-->
+
+<!-- Bootstrap JS -->
+<script src="assets/js/bootstrap.min.js"></script>
+
+<!-- Bootstrap Plugin - open dropdown on hover -->
+<script src="assets/js/min/bootstrap-hover-dropdown.min.js"></script>
+
+<!-- LESS preprocessor -->
+<script src="assets/js/less.min.js"></script>
+
+<!-- WOW.js - loading animations -->
+<script src="assets/js/wow.min.js"></script>
+
+<!-- Knobs - our skills -->
+<script src="assets/js/jquery.knob.min.js"></script>
+
+<!-- Slippry - Slideshow -->
+<script src="assets/js/min/slippry.min.js"></script>
+
+<!-- Mixitup plugin - Portfolio Filter Grid -->
+<script src="assets/js/jquery.mixitup.min.js"></script>
+
+<!-- Make sticky whatever elements -->
+<script src="assets/js/jquery.sticky.min.js"></script>
+
+<!-- Smooth sroll -->
+<script src="assets/js/jquery.nicescroll.min.js"></script>
+
+<!-- Contact Form -->
+<script src="assets/js/min/contact-form.min.js"></script>
+
+<!-- Must be last of all scripts -->
+<script src="assets/js/min/scripts.min.js"></script>
+<script src="app/client-scripts/angular.min.js"></script>
+<script src="app/client-scripts/app.js"></script>
+<!--[if lt IE 9]>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7/html5shiv.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+</body>
+
+
+<!-- Mirrored from bootstrapart.net/dragonfly/v1.5/about-us-v1.php by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 08 Jun 2016 14:57:04 GMT -->
+</html>

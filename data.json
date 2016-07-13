@@ -1,0 +1,46 @@
+{
+  "category": [
+    {
+      "name": "solo exhibitions",
+      "event": [
+        {
+          "year": "1973",
+          "exhibitions": "Goethe Institute, Lagos, March"
+        },
+        {},
+        {}
+      ]
+    },
+    {
+      "name": "group exhibitions",
+      "event": [
+        {
+          "year": "1973",
+          "exhibitions": "Goethe Institute, Lagos, March"
+        },
+        {},
+        {}
+      ]
+    }
+  ],
+  "gallery":[
+
+    {"title":"At the party ","image":"slide01.jpg","dimension":"76cm x 57cm","year":"2011","type":"painting", "exhibitionType":"solo"},
+    {"title":"At the party ","image":"slide02.jpg","dimension":"76cm x 57cm","year":"2011","type":"category1", "exhibitionType":"solo"},
+    {"title":"At the party ","image":"slide03.jpg","dimension":"76cm x 57cm","year":"2011","type":"painting", "exhibitionType":"solo"},
+    {"title":"At the party ","image":"slide04.jpg","dimension":"76cm x 57cm","year":"2011","type":"painting", "exhibitionType":"group"},
+    {"title":"At the party ","image":"slide05.jpg","dimension":"76cm x 57cm","year":"2011","type":"category2", "exhibitionType":"solo"},
+    {"title":"At the party ","image":"slide01.jpg","dimension":"76cm x 57cm","year":"2011","type":"painting", "exhibitionType":"group"},
+    {"title":"At the party ","image":"slide02.jpg","dimension":"76cm x 57cm","year":"2011","type":"painting", "exhibitionType":"group"},
+    {"title":"At the party ","image":"slide03.jpg","dimension":"76cm x 57cm","year":"2011","type":"category2", "exhibitionType":"group"},
+    {"title":"At the party ","image":"slide04.jpg","dimension":"76cm x 57cm","year":"2011","type":"painting", "exhibitionType":"solo"},
+    {"title":"At the party ","image":"slide05.jpg","dimension":"76cm x 57cm","year":"2011","type":"category1", "exhibitionType":"solo"},
+    {"title":"At the party ","image":"art1.jpg","dimension":"76cm x 57cm","year":"2011","type":"painting", "exhibitionType":"group"},
+    {"title":"At the party ","image":"art2.jpg","dimension":"76cm x 57cm","year":"2011","type":"category2", "exhibitionType":"solo"},
+    {"title":"At the party ","image":"art3.jpg","dimension":"76cm x 57cm","year":"2011","type":"painting", "exhibitionType":"group"},
+    {"title":"At the party ","image":"art4.jpg","dimension":"76cm x 57cm","year":"2011","type":"category1", "exhibitionType":"solo"},
+    {"title":"At the party ","image":"art5.jpg","dimension":"76cm x 57cm","year":"2011","type":"painting", "exhibitionType":"group"},
+    {"title":"At the party ","image":"art6.jpg","dimension":"76cm x 57cm","year":"2011","type":"category2", "exhibitionType":"solo"},
+    {"title":"At the party ","image":"art7.jpg","dimension":"76cm x 57cm","year":"2011","type":"painting", "exhibitionType":"group"}
+  ]
+}
